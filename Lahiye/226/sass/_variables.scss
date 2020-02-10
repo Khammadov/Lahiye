@@ -1,0 +1,45 @@
+$main-blue: #5e72e4;
+$main-green: #2dce89;
+$main-sky-blue: #11cdef;
+$blue2: #32325d;
+$nav-font: 16px;
+$main-font: "Source Sans Pro", sans-serif;
+$paddit: 25px;
+$padsec: "96px 0px";
+$boldfont: 700;
+$mb: 25px;
+%button-main {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: $main-blue;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    transform: translateY(-5px);
+    transition: all ease-in-out 0.3s;
+  }
+}
+
+%grey-input {
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(50, 50, 93, 0.15), 0 1px 0 rgba(0, 0, 0, 0.02);
+  border: 0;
+  transition: box-shadow 0.15s ease;
+  height: calc(2.75rem + 2px);
+  padding: 0.625rem 0.75rem;
+  line-height: 1.5;
+  //   margin-bottom: 15px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  &::placeholder {
+    color: #8898aa !important;
+  }
+}
+
+

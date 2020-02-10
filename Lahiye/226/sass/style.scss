@@ -1,0 +1,6 @@
+@import  "extend";
+@import "variables";
+
+.cdn{
+    @extend %Myfooter
+}

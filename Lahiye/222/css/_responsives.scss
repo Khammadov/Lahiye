@@ -1,0 +1,30 @@
+@media screen and (max-width: 992px){
+    .header-widget {
+        display: none;
+    }
+    .navbar-nav {
+        background-color: $third-color;
+        .nav-link {
+            margin-left: -135px;
+        }
+    }
+    form {
+        display: table !important;
+        input, select {
+            width: 600px;
+        }
+    }
+    .fa-angle-down {
+        float: right;
+    }
+    .dropdown-menu {
+        background-color: $third-color;
+        border: none;
+        .dropdown-item {
+        color: $sixth-color;
+        }
+        .dropdown-divider {
+            display: none;
+        }
+    }
+}
